@@ -1,0 +1,12 @@
+cm1:
+  charge:
+    min:
+      C: 0.05
+      Si: 0.04
+      Mn: 0.02
+  
+    max:
+      C: 0.75
+      Si: 1
+      Mn: 1
+    

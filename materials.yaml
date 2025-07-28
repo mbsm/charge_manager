@@ -1,0 +1,97 @@
+chatarra_CM:
+  chemestry:
+    min:
+      C: 0.05
+      Si: 0.01
+      Mn: 0.02
+  
+    max:
+      C: 0.75
+      Si: 0.04
+      Mn: 0.06
+  cost: 380
+  stock: 100
+  min: 0%
+  max: 100%
+
+Retornos_CM:
+  chemestry:
+    min:
+     min:
+      C: 0.05
+      Si: 0.03
+      Mn: 0.02
+  
+    max:
+      C: 0.75
+      Si: 0.04
+      Mn: 0.06
+  cost: 180
+  stock: 150
+  min: 30%
+  max: 40%
+
+fierro_Primera:
+  chemestry:
+    min:
+      C: 0.001
+      Si: 0.0
+      Mn: 0.001
+      
+    max:
+      C: 0.005
+      Si: 0.000
+      Mn: 0.003
+      
+  cost: 500
+  stock: 200
+  min: 20%
+  max: 100%
+
+carbon:
+  chemestry:
+    min:
+      C: 0.2
+      Si: 0.0
+      Mn: 0.0
+  
+    max:
+      C: 0.5
+      Si: 0.0
+      Mn: 0.0
+  cost: 300
+  stock: 120
+  min: 0%
+  max: 100%
+
+
+ferro_silica:
+  chemestry:
+    min:
+      C: 0.01
+      Si: 0.8
+      Mn: 0.0
+
+    max:
+      C: 0.02
+      Si: 0.8
+      Mn: 0.01
+  cost: 300
+  stock: 120
+  min: 0%
+  max: 100%
+
+ferro_manganeso:
+  chemestry:
+    min:
+      C: 0.0001
+      Si: 0.0001
+      Mn: 0.5
+    max:
+      C: 0.0001
+      Si: 0.0001
+      Mn: 0.7
+  cost: 300
+  stock: 120
+  min: 0%
+  max: 100%
