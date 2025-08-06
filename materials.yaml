@@ -1,97 +1,334 @@
-chatarra_CM:
-  chemestry:
+Chatarra_CM:
+  chemistry: # all values in wt%
     min:
-      C: 0.05
-      Si: 0.01
-      Mn: 0.02
-  
+      C: 0.5
+      Mn: 0.0
+      P: 0.0
+      S: 0.0
+      Cr: 2.0
+      Ni: 0.0
+      Mo: 0.3
+      Cu: 0.0
+      Si: 0.4
     max:
-      C: 0.75
-      Si: 0.04
-      Mn: 0.06
-  cost: 380
-  stock: 100
+      C: 0.56
+      Mn: 1.1
+      P: 0.035
+      S: 0.035
+      Cr: 2.4
+      Ni: 0.3
+      Mo: 0.4
+      Cu: 0.3
+      Si: 0.7
+    
+  cost: 322 # cost in CL$ per kg
+  stock: 10000000
   min: 0%
   max: 100%
+  type: scrap
 
 Retornos_CM:
-  chemestry:
+  chemistry: # all values in wt%
     min:
-     min:
-      C: 0.05
-      Si: 0.03
-      Mn: 0.02
-  
+      C: 0.5
+      Mn: 0.0
+      P: 0.0
+      S: 0.0
+      Cr: 2.0
+      Ni: 0.0
+      Mo: 0.3
+      Cu: 0.0
+      Si: 0.4
     max:
-      C: 0.75
-      Si: 0.04
-      Mn: 0.06
+      C: 0.56
+      Mn: 1.1
+      P: 0.035
+      S: 0.035
+      Cr: 2.4
+      Ni: 0.3
+      Mo: 0.4
+      Cu: 0.3
+      Si: 0.7
+
   cost: 180
-  stock: 150
+  stock: 15000000
   min: 30%
   max: 40%
+  type: returns
 
-fierro_Primera:
-  chemestry:
+Fierro_Primera:
+  chemistry:
     min:
-      C: 0.001
-      Si: 0.0
-      Mn: 0.001
-      
+      C: 0.15
+      Mn: 0.5
+      P: 0.02
+      S: 0.02
+      Cr: 0.0
+      Ni: 0.0
+      Mo: 0.0
+      Cu: 0.0
+      Si: 0.4
     max:
-      C: 0.005
-      Si: 0.000
-      Mn: 0.003
-      
-  cost: 500
-  stock: 200
+      C: 0.15
+      Mn: 0.5
+      P: 0.02
+      S: 0.02
+      Cr: 0.0
+      Ni: 0.0
+      Mo: 0.0
+      Cu: 0.0
+      Si: 0.4
+
+  cost: 377
+  stock: 2000000
   min: 20%
   max: 100%
+  type: acero
 
-carbon:
-  chemestry:
+Carbon_Grafito:
+  chemistry:
     min:
-      C: 0.2
-      Si: 0.0
+      C: 80
       Mn: 0.0
-  
+      P: 0.0
+      S: 0.0
+      Cr: 0.0
+      Ni: 0.0
+      Mo: 0.0
+      Cu: 0.0
+      Si: 0.0
+      V: 0.0
     max:
-      C: 0.5
-      Si: 0.0
+      C: 80
       Mn: 0.0
-  cost: 300
-  stock: 120
+      P: 0.0
+      S: 0.0
+      Cr: 00
+      Ni: 0.0
+      Mo: 0.0
+      Cu: 0.0
+      Si: 0.0
+      V: 0.0
+
+  cost: 404
+  stock: 1200000
   min: 0%
   max: 100%
+  type: ferroaleacion
 
 
-ferro_silica:
-  chemestry:
+FeSi75:
+  chemistry:
     min:
+      C: 0.0
+      Mn: 0.0
+      P: 0.0
+      S: 0.0
+      Cr: 0.0
+      Ni: 0.0
+      Mo: 0.0
+      Cu: 0.0
+      Si: 75
+      V: 0.0
+    max:
       C: 0.01
-      Si: 0.8
-      Mn: 0.0
-
-    max:
-      C: 0.02
-      Si: 0.8
       Mn: 0.01
-  cost: 300
-  stock: 120
-  min: 0%
-  max: 100%
+      P: 0.0
+      S: 0.0
+      Cr: 0.0
+      Ni: 0.0
+      Mo: 0.0
+      Cu: 0.0
+      Si: 75
+      V: 0.0
 
-ferro_manganeso:
-  chemestry:
-    min:
-      C: 0.0001
-      Si: 0.0001
-      Mn: 0.5
-    max:
-      C: 0.0001
-      Si: 0.0001
-      Mn: 0.7
-  cost: 300
-  stock: 120
+  cost: 1363
+  stock: 1200000
   min: 0%
   max: 100%
+  type: ferroaleacion
+
+FeMnHC:
+  chemistry:
+    min:
+      C: 6.5
+      Mn: 68.0
+      P: 0.0
+      S: 0.0
+      Cr: 0.0
+      Ni: 0.0
+      Mo: 0.0
+      Cu: 0.0
+      Si: 0.00
+      V: 0.0
+    max:
+      min:
+      C: 6.5
+      Mn: 69.0
+      P: 0.0
+      S: 0.0
+      Cr: 0.0
+      Ni: 0.0
+      Mo: 0.0
+      Cu: 0.0
+      Si: 0.00
+      V: 0.0
+
+  cost: 1147
+  stock: 1200000
+  min: 0%
+  max: 100%
+  type: ferroaleacion
+
+
+  FeMnMC:
+  chemistry:
+    min:
+      C: 1.0
+      Mn: 76.0
+      P: 0
+      S: 0
+      Cr: 0.0
+      Ni: 0.0
+      Mo: 0.0
+      Cu: 0.0
+      Si: 0
+      V: 0.0
+    max:
+      C: 1.0
+      Mn: 76
+      P: 0
+      S: 0
+      Cr: 0.0
+      Ni: 0.0
+      Mo: 0.0
+      Cu: 0.0
+      Si: 0
+      V: 0.0
+      
+  cost: 1871
+  stock: 1200000
+  min: 0%
+  max: 100%
+  type: ferroaleacion
+
+FeCrHC:
+  chemistry:
+    min:
+      C: 6.5
+      Mn: 0.0
+      P: 0
+      S: 0
+      Cr: 68
+      Ni: 0.0
+      Mo: 0.0
+      Cu: 0.0
+      Si: 0
+      V: 0.0
+    max:
+      C: 6.5
+      Mn: 0.0
+      P: 0
+      S: 0
+      Cr: 68
+      Ni: 0.0
+      Mo: 0.0
+      Cu: 0.0
+      Si: 0.0
+      V: 0.0 
+  cost: 1571
+  stock: 12000000
+  min: 0%
+  max: 100%
+  type: ferroaleacion
+
+
+FeCrLC:
+  chemistry:
+    min:
+      C: 1.0
+      Mn: 0.0
+      P: 0.00
+      S: 0.00
+      Cr: 0.68
+      Ni: 0.0
+      Mo: 0.0
+      Cu: 0.0
+      Si: 0.00
+      V: 0.0
+    max:
+      C: 1.0
+      Mn: 0.0
+      P: 0.00
+      S: 0.000
+      Cr: 0.68
+      Ni: 0.0
+      Mo: 0.0
+      Cu: 0.0
+      Si: 0.00
+      V: 0.0 
+  cost: 2602
+  stock: 1200000
+  min: 0%
+  max: 100%
+  type: ferroaleacion
+
+FeSiMn:
+  chemistry:
+    min:
+      C: 1.5
+      Mn: 60
+      P: 0.0
+      S: 0.0
+      Cr: 0.0
+      Ni: 0.0
+      Mo: 0.0
+      Cu: 0.0
+      Si: 20
+      V: 0.0
+    max:
+      C: 1.5
+      Mn: 60.0
+      P: 0.0
+      S: 0.0
+      Cr: 0.0
+      Ni: 0.0
+      Mo: 0.0
+      Cu: 0.0
+      Si: 20
+      V: 0.0
+  cost: 1500
+  stock: 1000000
+  min: 0%
+  max: 100%
+  type: ferroaleacion
+
+Trioxido_Molibdeno:
+  chemistry:
+      min:
+        C: 0.0
+        Mn: 0.0
+        P: 0.0
+        S: 0.0
+        Cr: 0.0
+        Ni: 0.0
+        Mo: 58
+        Cu: 0.0
+        Si: 0.0
+        V: 0.0
+      max:
+        C: 0
+        Mn: 0
+        P: 0.0
+        S: 0.0
+        Cr: 0.0
+        Ni: 0.0
+        Mo: 58.0
+        Cu: 0.0
+        Si: 20
+        V: 0.0
+  cost: 1500
+  stock: 1000000
+  min: 0%
+  max: 100%
+  type: ferroaleacion

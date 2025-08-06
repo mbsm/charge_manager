@@ -1,12 +1,47 @@
 cm1:
-  charge:
+  Carga: # all values in wt% IE 0,7 = 0.7%
     min:
-      C: 0.05
-      Si: 0.04
-      Mn: 0.02
-  
+      C: 0.7
+      Mn: 0.0
+      P: 0.0
+      S: 0.0
+      Cr: 0.0
+      Ni: 0.0
+      Mo: 0.1
+      Cu: 0.0
+      Si: 0.79
     max:
-      C: 0.75
-      Si: 1
-      Mn: 1
-    
+      C: 0.8
+      Mn: 1.1
+      P: 0.029
+      S: 0.029
+      Cr: 2.4
+      Ni: 0.3
+      Mo: 0.4
+      Cu: 0.3
+      Si: 1.1
+    min_acero_pct: 0.20  # Nuevo campo: mínimo 20% de materiales tipo acero en la carga
+    max_returns: 0.32
+  Final:
+    min:
+      C: 0.5
+      Mn: 0.0
+      P: 0.0
+      S: 0.0
+      Cr: 2.0
+      Ni: 0.0
+      Mo: 0.3
+      Cu: 0.0
+      Si: 0.4
+    max:
+      C: 0.56
+      Mn: 1.1
+      P: 0.035
+      S: 0.035
+      Cr: 2.4
+      Ni: 0.3
+      Mo: 0.4
+      Cu: 0.3
+      Si: 0.7
+
+
