@@ -21,7 +21,7 @@ cm1:
       Cu: 0.3
       Si: 1.1
     min_acero_pct: 0.20  # Nuevo campo: mínimo 20% de materiales tipo acero en la carga
-    max_returns: 0.32
+    max_returns: 0.4
   Final:
     min:
       C: 0.5

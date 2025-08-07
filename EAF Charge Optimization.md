@@ -86,7 +86,3 @@ Este documento describe el modelo y la lógica utilizados para optimizar la carg
 4. Se reporta la mejor solución encontrada, mostrando composición, costos y cumplimiento de especificaciones.
 
 ---
-
-Este modelo permite adaptar fácilmente las restricciones y objetivos para diferentes aleaciones y condiciones operativas, facilitando la toma de decisiones en la operación del horno EAF.
-
-
